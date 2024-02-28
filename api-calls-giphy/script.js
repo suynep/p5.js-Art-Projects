@@ -1,5 +1,8 @@
 
-let giphyAPI = 'O56xYLdq31GrOb3CHMAKaeVWG3VRtDUp';
+let giphyAPI; 
+function preload() {
+	giphyAPI = loadStrings('api.txt');
+}
 let url = `https://api.giphy.com/v1/gifs/trending?api_key=${giphyAPI}`;
 // let url2 = 
 
