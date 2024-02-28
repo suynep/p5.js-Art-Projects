@@ -162,6 +162,8 @@ function setup() {
 		perlinLines[i].drawNoisePoints();
 		console.log(perlinLines[i].pVecArr.length);
 	}
+
+	saveGif('mySketch', 5);
 }
 
 
@@ -171,36 +173,40 @@ function draw() {
 	background(COLORS[0]);
 
 	for (let i = 0; i < numberOfLines; i++) {
-		if (perlinLines[i].reverseFlag != false) {
-			if (perlinLines[i].iter != perlinLines[i].pVecArr.length - 1) {
+		// if (perlinLines[i].reverseFlag != false) {
+			// if (perlinLines[i].iter != perlinLines[i].pVecArr.length - 1) {
 				perlinLines[i].drawLineFinal();
-			}
-			else if (perlinLines[i].eraseFlag == true) {
-				perlinLines[i].drawNoisePoints();
+			// }
+			// else if (perlinLines[i].eraseFlag == true) {
+			// 	perlinLines[i].drawNoisePoints();
 				// perlinLines[i].joinPoints(perlinLines[i].pVecArr.reverse());
-			}
-		}
+			// }
+		// }
 	}
 	// for (let ele of perlinLines) {
 	// console.log(ele.iter);}
 
-	for (let i = 0; i < numberOfLines; i++) {
+	// TBI: reverse animation ------------------------------------------------------------------------------------------------------------------------------------ ||
+	//  ||||||||||||||||||||||||||||||||||||
+	//  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 
-		if (frameCount - time > 20) {
-			perlinLines[i].polarityReverser();
-			if (perlinLines[i].reverseFlag && perlinLines[i].iter != 0) {
-				perlinLines[i].drawLineFinalReverse();
-			}
-			else if (perlinLines[i].eraseFlag == true) {
-				perlinLines[i].drawNoisePoints();
-				// perlinLines[i].joinPoints(perlinLines[i].pVecArr.reverse());
-			}
-		}
+	// for (let i = 0; i < numberOfLines; i++) {
+
+	// 	if (frameCount - time > 20) {
+	// 		perlinLines[i].polarityReverser();
+	// 		if (perlinLines[i].reverseFlag && perlinLines[i].iter != 0) {
+	// 			perlinLines[i].drawLineFinalReverse();
+	// 		}
+	// 		else if (perlinLines[i].eraseFlag == true) {
+	// 			perlinLines[i].drawNoisePoints();
+	// 			// perlinLines[i].joinPoints(perlinLines[i].pVecArr.reverse());
+	// 		}
+	// 	}
 
 
-	}
+	// }
 
-	// console.log(millis());
+//	// console.log(millis());
 
 
 
