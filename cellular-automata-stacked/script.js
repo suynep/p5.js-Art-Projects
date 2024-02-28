@@ -13,6 +13,7 @@ function setup() {
 		cells.push(floor(random(0, 2)));
 	}
 	w = width / cells.length;
+	saveGif('mySketch', 5);
 }
 
 
