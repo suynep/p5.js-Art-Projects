@@ -4,11 +4,18 @@
 
 1. Noise ([noiseplay](https://github.com/suynep/art-thingy/tree/main/noiseplay))
 
-![](https://github.com/suynep/art-thingy/blob/main/noiseplay/assets/mySketch.gif)
+![](https://github.com/suynep/p5.js-Art-Projects/blob/main/noiseplay/assets/noiseplay.gif)
 
-2. Cellular Automata with Simple Rules ([cellular-automata-stacked](https://github.com/suynep/art-thingy/tree/main/cellular-automata-stacked))
+
+2. Chaikin Algorithm ([chaikin-algo](https://github.com/suynep/p5.js-Art-Projects/tree/main/chaikin-algo))
+
+![](https://github.com/suynep/p5.js-Art-Projects/blob/main/chaikin-algo/assets/chaikin-demo.png)
+
+
+3. Cellular Automata with Simple Rules ([cellular-automata-stacked](https://github.com/suynep/art-thingy/tree/main/cellular-automata-stacked))
 
 ![](https://github.com/suynep/art-thingy/blob/main/cellular-automata-stacked/assets/mySketch.gif)
+
 
 ### To run each /projectFolder/
 
