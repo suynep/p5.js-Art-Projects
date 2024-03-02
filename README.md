@@ -9,6 +9,11 @@
 
 2. Chaikin Algorithm ([chaikin-algo](https://github.com/suynep/p5.js-Art-Projects/tree/main/chaikin-algo))
 
+
+[Chaikin algorithm](https://www.educative.io/answers/what-is-chaikins-algorithm) smoothens a jagged collection of line-segments. In the figure below, the lines with red vertices are the original set of lines which get smoothened to the curve in the same figure. 
+
+
+
 ![](https://github.com/suynep/p5.js-Art-Projects/blob/main/chaikin-algo/assets/chaikin-demo.png)
 
 
