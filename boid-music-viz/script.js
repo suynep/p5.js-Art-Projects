@@ -1,4 +1,3 @@
-
 let boids = [];
 
 
@@ -13,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-	background(50);
+	background(10);
 	for (let boid of boids) {
 		boid.drawBoid();
 		boid.moveBoid(width, height);
